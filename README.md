@@ -15,7 +15,8 @@ In order for a presentation (stateless) component to communicate changes to a co
 
 For example:
 ///
-  function Container() {
+
+    function Container() {
     const [isActive, setIsActive] = useState(false);                              
                                   
     return (
